@@ -5,6 +5,7 @@ import MainLayout from "./layouts/MainLayout"
 import HomePage from "./pages/HomePage"
 import JobsPage from "./pages/JobsPage"
 import AddJobPage from "./pages/AddJobPage"
+import PageNotFound from "./pages/PageNotFound"
 
  const App = () => {
 
@@ -14,6 +15,7 @@ import AddJobPage from "./pages/AddJobPage"
                           <Route index element={<HomePage />}></Route>
                           <Route path="/jobs" element={<JobsPage />}></Route>
                           <Route path="/jobs" element={<AddJobPage />}></Route>
+                          <Route path="*" element={<PageNotFound/>}></Route>
                         </Route>
                       )
 
