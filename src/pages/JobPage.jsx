@@ -30,7 +30,14 @@ const JobPage = () => {
     },[])
    
 
-  return loading ? (<Spinner />) : (<h1>{job.title} </h1>) 
+  return loading ? (<Spinner />) : 
+    (<>
+    <h1>{job.title} </h1>
+    <p>{job.location}</p>
+    
+    
+    
+    </>) 
 }
 
 export default JobPage

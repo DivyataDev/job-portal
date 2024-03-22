@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import jobs from '../jobs.json'
 import JobListing from './JobListing'
 import Spinner from './Spinner'
 
