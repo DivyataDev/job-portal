@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage"
 import JobsPage from "./pages/JobsPage"
 import AddJobPage from "./pages/AddJobPage"
 import PageNotFound from "./pages/PageNotFound"
+import JobPage from "./pages/JobPage"
 
  const App = () => {
 
@@ -14,7 +15,7 @@ import PageNotFound from "./pages/PageNotFound"
                         <Route path='/' element={<MainLayout />} >
                           <Route index element={<HomePage />}></Route>
                           <Route path="/jobs" element={<JobsPage />}></Route>
-                          <Route path="/jobs" element={<AddJobPage />}></Route>
+                          <Route path="/jobs/:id" element={<JobPage />}></Route>
                           <Route path="*" element={<PageNotFound/>}></Route>
                         </Route>
                       )
