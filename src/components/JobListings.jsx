@@ -20,9 +20,6 @@ const JobListings = ({isHome = false}) => {
       }finally {
         setIsLoading(false)
       }
-       
-
-
     }
     fetchJobs()
 
