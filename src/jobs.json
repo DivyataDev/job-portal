@@ -86,16 +86,16 @@
     },
     {
       "id": "2d08",
-      "title": "MIna",
-      "type": "Full-Time",
-      "description": "dadfa",
-      "location": "adf",
+      "title": "Marine",
+      "type": "Part-Time",
+      "description": "this is description",
+      "location": "Phillip",
       "salary": "Under $50K",
       "company": {
-        "name": "adf",
-        "description": "adf",
-        "contactEmail": "ema@dm.com",
-        "contactPhone": "2323232"
+        "name": "company name",
+        "description": "company description",
+        "contactEmail": "ema@dme.com",
+        "contactPhone": "2323232232"
       }
     }
   ]
